@@ -1,0 +1,45 @@
+---
+title: "Storyboard Page"
+output:
+  flexdashboard::flex_dashboard:
+    theme: flatly
+---
+
+Analysis {.storyboard}
+=========================================
+
+### Frame 1
+
+```{r}
+plot(cars)
+```
+
+### Frame 2
+
+```{r}
+print("Temas")
+print("#cerulean
+#journal
+#flatly
+#readable
+#spacelab
+#united
+#lumen
+#paper
+#sandstone
+#simplex
+#yeti")
+```
+
+
+Details
+=========================================
+
+Column
+-----------------------------------------
+
+### PARTE 1
+
+```{r}
+plot(cars)
+```
